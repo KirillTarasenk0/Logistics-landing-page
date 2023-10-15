@@ -10,6 +10,11 @@
         .main__service-name {
             display: flex;
             flex-direction: column;
+            .main__service-line {
+                max-width: 90px;
+                border-top: 6px solid #C8A35F;
+                margin-bottom: 40px;
+            }
             .main__service-title {
                 font-weight: 700;
                 font-size: 40px;
