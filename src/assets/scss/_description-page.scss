@@ -1,0 +1,43 @@
+.main {
+    background-color: $header-bg-color;
+    .main__first-section {
+        .main__first-container {
+            background-image: url(../img/background.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            padding-top: 300px;
+            padding-bottom: 150px;
+            .main__first-description {
+                border: 1px solid #C8A35F;
+                padding: 45px 72px 45px 71px;
+                h1 {
+                    font-weight: 700;
+                    font-size: $title-font-size;
+                    line-height: 75px;
+                    padding-bottom: 45px;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: $article-font-size;
+                    line-height: 28px;
+                    width: 777px;
+                    text-align: center;
+                }
+            }
+            .main__first-link {
+                padding-top: 140px;
+            }
+        }
+    }
+}
