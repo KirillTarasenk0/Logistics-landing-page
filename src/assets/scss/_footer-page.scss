@@ -1,51 +1,72 @@
-/*.footer {
+.footer {
     background-color: $top-line-bg-color;
-}
-.footer__container {
     display: flex;
+    justify-content: center;
+    .footer__container {
+        display: flex;
+        align-items: center;
+        max-width: 1110px;
+        height: 161px;
+        .footer__connections-card {
+            display: flex;
+            .footer__connections {
+                display: flex;
+                .footer__logo-container {
+                    padding-right: 30px;
+                }
+                .footer__requisites-container {
+                    padding-top: 5px;
+                    .footer__address-container {
+                        padding-bottom: 10px;
+                        a {
+                            font-weight: 400;
+                            font-size: $navigation-font-size;
+                            line-height: 16px;
+                            text-decoration: none;
+                        }
+                    }
+                    .footer__email-container {
+                        a {
+                            font-weight: 400;
+                            font-size: $navigation-font-size;
+                            line-height: 16px;
+                            text-decoration: none;
+                            color: #2F343A;
+                        }
+                    }
+                }
+            }
+            .footer__phones {
+                padding-left: 89px;
+                .footer__phone-container {
+                    width: 291px;
+                    &:first-child {
+                        padding-top: 5px;
+                    }
+                    &:last-child {
+                        padding-top: 10px;
+                    }
+                    a {
+                        font-weight: 400;
+                        font-size: $navigation-font-size;
+                        line-height: 16px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .footer__developers-link {
+            padding-left: 41px;
+            .developers__link-container {
+                padding-top: 22px;
+                a {
+                    font-weight: 400;
+                    font-size: $navigation-font-size;
+                    line-height: 16px;
+                    text-decoration: none;
+                    color: #2F343A;
+                }
+            }
+        }
+    }
 }
-.footer__connections-card {
-    display: flex;
-}
-.footer__connections {
-    display: flex;
-}
-.footer__logo-container {
-
-}
-.footer__logo {
-
-}
-.footer__requisites-container {
-
-}
-.footer__address-container {
-
-}
-.footer__address {
-
-}
-.footer__email-container {
-
-}
-.footer__email {
-
-}
-.footer__phones {
-
-}
-.footer__phone-container {
-
-}
-.footer__phone {
-
-}
-.footer__developers-link {
-
-}
-.developers__link-container {
-
-}
-.developers__link {
-
-}*/
