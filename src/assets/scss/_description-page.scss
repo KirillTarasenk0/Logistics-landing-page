@@ -18,6 +18,16 @@
             .main__first-description {
                 border: 1px solid #C8A35F;
                 padding: 45px 72px 45px 71px;
+                @media screen and (max-width: 1120px) {
+                    padding: 45px 30px 45px 30px;
+                }
+                @media screen and (max-width: 895px) {
+                    padding: 45px 10px 45px 10px;
+                }
+                @media screen and (max-width: 690px) {
+                    border: 0;
+                    padding: 0;
+                }
                 h1 {
                     font-weight: 700;
                     font-size: $title-font-size;
@@ -26,6 +36,12 @@
                     letter-spacing: 3px;
                     text-transform: uppercase;
                     text-align: center;
+                    @media screen and (max-width: 895px) {
+                        font-size: 50px;
+                    }
+                    @media screen and (max-width: 590px) {
+                        max-width: 350px;
+                    }
                 }
                 p {
                     font-weight: 400;
@@ -33,6 +49,16 @@
                     line-height: 28px;
                     width: 777px;
                     text-align: center;
+                    @media screen and (max-width: 895px) {
+                        max-width: 577px;
+                        padding-left: 30px;
+                    }
+                    @media screen and (max-width: 590px) {
+                        max-width: 350px;
+                    }
+                    @media screen and (max-width: 490px) {
+                        max-width: 320px;
+                    }
                 }
             }
             .main__first-link {
