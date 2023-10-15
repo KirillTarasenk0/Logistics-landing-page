@@ -16,6 +16,18 @@
                 padding-bottom: 16px;
                 .header__items-langs {
                     padding-right: 426px;
+                    @media screen and (max-width: 1120px) {
+                        padding-right: 326px;
+                    }
+                    @media screen and (max-width: 895px) {
+                        padding-right: 226px;
+                    }
+                    @media screen and (max-width: 690px) {
+                        padding-right: 100px;
+                    }
+                    @media screen and (max-width: 490px) {
+                        padding-right: 55px;
+                    }
                     a {
                         text-decoration: none;
                         font-weight: 400;
@@ -30,6 +42,18 @@
                 }
                 .header__items-phone {
                     padding-right: 412px;
+                    @media screen and (max-width: 1120px) {
+                        padding-right: 312px;
+                    }
+                    @media screen and (max-width: 895px) {
+                        padding-right: 212px;
+                    }
+                    @media screen and (max-width: 690px) {
+                        padding-right: 100px;
+                    }
+                    @media screen and (max-width: 490px) {
+                        padding-right: 55px;
+                    }
                     a {
                         text-decoration: none;
                         font-weight: 400;
@@ -59,15 +83,54 @@
                 .header__logo-section {
                     display: flex;
                     padding-right: 346px;
+                    @media screen and (max-width: 1120px) {
+                        padding-right: 147px;
+                    }
+                    @media screen and (max-width: 895px) {
+                        padding-right: 40px;
+                    }
+                    @media screen and (max-width: 690px) {
+                        padding-right: 0px;
+                        padding-left: 55px;
+                    }
+                    @media screen and (max-width: 490px) {
+                        padding-right: 0px;
+                        padding-left: 145px;
+                    }
                     .header__logo-container {
                         padding-right: 30px;
+                        @media screen and (max-width: 895px) {
+                            padding-right: 15px;
+                        }
+                        @media screen and (max-width: 690px) {
+                            padding-right: 30px;
+                        }
+                        @media screen and (max-width: 490px) {
+                            padding-right: 20px;
+                            padding-left: 20px;
+                        }
+                        img {
+                            @media screen and (max-width: 490px) {
+                                width: 130px;
+                                height: 46px;
+                            }
+                        }
                     }
                     .header__items-delimiter {
                         border: 1px solid #F2F2F2;
+                        @media screen and (max-width: 690px) {
+                            margin-right: 15px;
+                        }
+                        @media screen and (max-width: 490px) {
+                            margin-right: 0px;
+                        }
                     }
                     .header__link-container {
                         display: flex;
                         padding-left: 30px;
+                        @media screen and (max-width: 895px) {
+                            padding-right: 15px;
+                        }
                         .header__label-container {
                             padding-top: 11px;
                             padding-bottom: 10px;
@@ -86,12 +149,20 @@
                     }
                 }
                 .header__navigation-section {
+                    @media screen and (max-width: 690px) {
+                        display: none;
+                    }
                     .header__navigation-container {
                         ul {
                             display: flex;
                             padding-top: 15px;
                             padding-bottom: 15px;
                             li {
+                                @media screen and (max-width: 895px) {
+                                    &:not(:last-child) {
+                                        padding-right: 10px;
+                                    }
+                                }
                                 &:not(:last-child) {
                                     padding-right: 30px;
                                 }
@@ -108,6 +179,13 @@
                 }
                 .header__button-container {
                     display: none;
+                    @media screen and (max-width: 690px) {
+                        display: block;
+                        padding-left: 0px;
+                    }
+                    @media screen and (max-width: 490px) {
+                        padding-right: 100px;
+                    }
                     .header__menu-open {
                         padding: 0;
                         border: 0;
