@@ -7,13 +7,33 @@
         max-width: 1108px;
         padding-top: 120px;
         padding-bottom: 120px;
+        @media screen and (max-width: 1120px) {
+            max-width: 900px;
+        }
+        @media screen and (max-width: 895px) {
+            max-width: 700px;
+        }
+        @media screen and (max-width: 690px) {
+            max-width: 500px;
+        }
+        @media screen and (max-width: 590px) {
+            max-width: 350px;
+        }
         .main__service-name {
             display: flex;
             flex-direction: column;
+            @media screen and (max-width: 1120px) {
+                align-items: center;
+            }
             .main__service-line {
                 max-width: 90px;
                 border-top: 6px solid #C8A35F;
                 margin-bottom: 40px;
+                @media screen and (max-width: 1120px) {
+                    width: 90px;
+                    border-top: 6px solid #C8A35F;
+                    margin-bottom: 40px;
+                }
             }
             .main__service-title {
                 font-weight: 700;
@@ -29,6 +49,9 @@
             flex-direction: row;
             flex-wrap: wrap;
             gap: 1px;
+            @media screen and (max-width: 1120px) {
+                justify-content: center;
+            }
             .main__service-card {
                 padding-top: 55px;
                 padding-bottom: 35px;
