@@ -7,7 +7,261 @@
     <link rel="stylesheet" href="dist/css/index.min.css">
 </head>
 <body>
-    
+    <div class="burger__menu-container" id="burgerMenuContainer">
+        <div class="burger__menu-wrapper">
+            <div class="burger__navigation-section">
+                <div class="burger__close-button">
+                    <button class="burger__button" id="burgerExitBtn">
+                        <img class="burger__close-button" src="./src/assets/img/menu-close-icon.svg" alt="Иконка закрытия меню-бургер"/>
+                    </button>
+                </div>
+                <nav class="burger__navigation-container">
+                    <ul class="burger__navigation-links">
+                        <li class="burger__navigation-link"><a class="burger__link" href="#">услуги</a></li>
+                        <li class="burger__navigation-link"><a class="burger__link" href="#">О компании</a></li>
+                        <li class="burger__navigation-link"><a class="burger__link" href="#">вакансии</a></li>
+                        <li class="burger__navigation-link"><a class="burger__link" href="#">контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div id="generalContainer">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__items-first">
+                    <div class="header__first-container">
+                        <div class="header__items-langs">
+                            <a id="firstLink" class="header__item-lang" href="#">РУС</a>
+                            <a id="secondLink" class="header__item-lang" href="#">ENG</a>
+                            <a id="thirdLink" class="header__item-lang" href="#">FR</a>
+                        </div>
+                        <div class="header__items-phone">
+                            <a class="header__item-phone" href="tel:8 (800) 123-45-67">8 (800) 123-45-67</a>
+                        </div>
+                        <div class="header__items-email">
+                            <a class="header__item-email" href="mailto:sales@log.ru">sales@log.ru</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__items-second">
+                    <div class="header__second-container">
+                        <div class="header__logo-section">
+                            <div class="header__logo-container">
+                                <img class="header__logo" src="./src/assets/img/logo.svg" alt="Логотип компании"/>
+                            </div>
+                            <div class="header__items-delimiter"></div>
+                            <div class="header__link-container">
+                                <div class="header__label-container">
+                                    <img class="header__map-label" src="./src/assets/img/maplabel.svg" alt="Иконка метки на карте"/>
+                                </div>
+                                <div class="header__office-link-container">
+                                    <a class="header__office-link" href="#">Наши офисы</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__navigation-section">
+                            <nav class="header__navigation-container">
+                                <ul class="header__navigation-links">
+                                    <li class="header__navigation-link"><a class="navigation__link" href="#">услуги</a></li>
+                                    <li class="header__navigation-link"><a class="navigation__link" href="#">О компании</a></li>
+                                    <li class="header__navigation-link"><a class="navigation__link" href="#">вакансии</a></li>
+                                    <li class="header__navigation-link"><a class="navigation__link" href="#">контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__button-container">
+                            <button class="header__menu-open" id="menuOpenBtn">
+                                <img class="header__menu-img" src="./src/assets/img/menu-icon.svg" alt="Иконка меню бургер"/>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__first-section">
+                <div class="main__first-container">
+                    <div class="main__first-description">
+                        <h1 class="main__first-title">Грузовые перевозки</h1>
+                        <p class="main__first-text">Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка и хранение грузов</p>
+                    </div>
+                    <div class="main__first-link">
+                        <div class="main__link-container">
+                            <a class="main__first-link" href="#"><img class="main__link-image" src="./src/assets/img/mouse.svg" alt="Иконка мышки"/></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__second-section">
+                <div class="main__second-container">
+                    <div class="main__second-info">
+                        <div class="main__info-line"></div>
+                        <h2 class="main__info-title">грузоперевозки по европе</h2>
+                        <p class="main__info-text">Страны Евросоюза, а также Украина, Белоруссия со всеми документами.</p>
+                        <div class="main__info-button">
+                            <a class="main__info-link" href="#">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <div class="main__second-truck">
+                        <div class="main__truck-image">
+                            <img class="truck__image" src="./src/assets/img/truck-image.svg" alt="Фотография фуры"/>
+                        </div>
+                    </div>
+                    <div class="main__second-arrows">
+                        <div class="main__arrow-right">
+                            <p class="main__right-text">след</p>
+                        </div>
+                        <div class="main__arrow-left">
+                            <p class="main__left-text">Назад</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__third-section">
+                <div class="main__third-container">
+                    <div class="main__service-name">
+                        <div class="main__service-line"></div>
+                        <h2 class="main__service-title">услуги</h2>
+                    </div>
+                    <div class="main__services-container">
+                        <div class="main__service-card">
+                            <div class="main__service-image">
+                                <svg class="service__image" width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.8925 0.0731982L25.718 1.51816C25.5147 1.61199 25.327 1.74023 25.1675 1.89974L19.9944 7.07597L2.17944 4.93979C1.8573 4.90226 1.53202 5.01173 1.30371 5.24317L0.312246 6.23463C-0.213196 6.76008 -0.0505593 7.64832 0.628137 7.9517L13.3951 13.6753L9.72955 17.3409H3.32728C3.0458 17.3409 2.77682 17.4535 2.57665 17.6505L2.04183 18.1884C1.51013 18.7201 1.68528 19.6177 2.37336 19.9118L7.77478 22.2262L10.0892 27.6276C10.3832 28.3157 11.284 28.4909 11.8126 27.9592L12.3505 27.4212C12.5507 27.221 12.6601 26.9521 12.6601 26.6706V20.2683L16.3257 16.6027L22.0493 29.3729C22.3527 30.0516 23.2409 30.2142 23.7663 29.6888L24.7578 28.6973C24.9892 28.4659 25.0987 28.1437 25.0612 27.8216L22.9219 10.0066L28.0981 4.83036C28.2576 4.67085 28.3858 4.48632 28.4797 4.27989L29.9246 1.10535C30.2281 0.451642 29.5525 -0.227054 28.8925 0.0731982Z"/>
+                                </svg>
+                            </div>
+                            <div class="main__service-label">
+                                <p class="service__label">Авиаперевозки</p>
+                            </div>
+                        </div>
+                        <div class="main__service-card">
+                            <div class="main__service-image">
+                                <svg class="service__image" width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.8925 0.0731982L25.718 1.51816C25.5147 1.61199 25.327 1.74023 25.1675 1.89974L19.9944 7.07597L2.17944 4.93979C1.8573 4.90226 1.53202 5.01173 1.30371 5.24317L0.312246 6.23463C-0.213196 6.76008 -0.0505593 7.64832 0.628137 7.9517L13.3951 13.6753L9.72955 17.3409H3.32728C3.0458 17.3409 2.77682 17.4535 2.57665 17.6505L2.04183 18.1884C1.51013 18.7201 1.68528 19.6177 2.37336 19.9118L7.77478 22.2262L10.0892 27.6276C10.3832 28.3157 11.284 28.4909 11.8126 27.9592L12.3505 27.4212C12.5507 27.221 12.6601 26.9521 12.6601 26.6706V20.2683L16.3257 16.6027L22.0493 29.3729C22.3527 30.0516 23.2409 30.2142 23.7663 29.6888L24.7578 28.6973C24.9892 28.4659 25.0987 28.1437 25.0612 27.8216L22.9219 10.0066L28.0981 4.83036C28.2576 4.67085 28.3858 4.48632 28.4797 4.27989L29.9246 1.10535C30.2281 0.451642 29.5525 -0.227054 28.8925 0.0731982Z"/>
+                                </svg>
+                            </div>
+                            <div class="main__service-label">
+                                <p class="service__label">Авиаперевозки</p>
+                            </div>
+                        </div>
+                        <div class="main__service-card">
+                            <div class="main__service-image">
+                                <svg class="service__image" width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.8925 0.0731982L25.718 1.51816C25.5147 1.61199 25.327 1.74023 25.1675 1.89974L19.9944 7.07597L2.17944 4.93979C1.8573 4.90226 1.53202 5.01173 1.30371 5.24317L0.312246 6.23463C-0.213196 6.76008 -0.0505593 7.64832 0.628137 7.9517L13.3951 13.6753L9.72955 17.3409H3.32728C3.0458 17.3409 2.77682 17.4535 2.57665 17.6505L2.04183 18.1884C1.51013 18.7201 1.68528 19.6177 2.37336 19.9118L7.77478 22.2262L10.0892 27.6276C10.3832 28.3157 11.284 28.4909 11.8126 27.9592L12.3505 27.4212C12.5507 27.221 12.6601 26.9521 12.6601 26.6706V20.2683L16.3257 16.6027L22.0493 29.3729C22.3527 30.0516 23.2409 30.2142 23.7663 29.6888L24.7578 28.6973C24.9892 28.4659 25.0987 28.1437 25.0612 27.8216L22.9219 10.0066L28.0981 4.83036C28.2576 4.67085 28.3858 4.48632 28.4797 4.27989L29.9246 1.10535C30.2281 0.451642 29.5525 -0.227054 28.8925 0.0731982Z"/>
+                                </svg>
+                            </div>
+                            <div class="main__service-label">
+                                <p class="service__label">Авиаперевозки</p>
+                            </div>
+                        </div>
+                        <div class="main__service-card">
+                            <div class="main__service-image">
+                                <svg class="service__image" width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.8925 0.0731982L25.718 1.51816C25.5147 1.61199 25.327 1.74023 25.1675 1.89974L19.9944 7.07597L2.17944 4.93979C1.8573 4.90226 1.53202 5.01173 1.30371 5.24317L0.312246 6.23463C-0.213196 6.76008 -0.0505593 7.64832 0.628137 7.9517L13.3951 13.6753L9.72955 17.3409H3.32728C3.0458 17.3409 2.77682 17.4535 2.57665 17.6505L2.04183 18.1884C1.51013 18.7201 1.68528 19.6177 2.37336 19.9118L7.77478 22.2262L10.0892 27.6276C10.3832 28.3157 11.284 28.4909 11.8126 27.9592L12.3505 27.4212C12.5507 27.221 12.6601 26.9521 12.6601 26.6706V20.2683L16.3257 16.6027L22.0493 29.3729C22.3527 30.0516 23.2409 30.2142 23.7663 29.6888L24.7578 28.6973C24.9892 28.4659 25.0987 28.1437 25.0612 27.8216L22.9219 10.0066L28.0981 4.83036C28.2576 4.67085 28.3858 4.48632 28.4797 4.27989L29.9246 1.10535C30.2281 0.451642 29.5525 -0.227054 28.8925 0.0731982Z"/>
+                                </svg>
+                            </div>
+                            <div class="main__service-label">
+                                <p class="service__label">Авиаперевозки</p>
+                            </div>
+                        </div>
+                        <div class="main__service-card">
+                            <div class="main__service-image">
+                                <svg class="service__image" width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.8925 0.0731982L25.718 1.51816C25.5147 1.61199 25.327 1.74023 25.1675 1.89974L19.9944 7.07597L2.17944 4.93979C1.8573 4.90226 1.53202 5.01173 1.30371 5.24317L0.312246 6.23463C-0.213196 6.76008 -0.0505593 7.64832 0.628137 7.9517L13.3951 13.6753L9.72955 17.3409H3.32728C3.0458 17.3409 2.77682 17.4535 2.57665 17.6505L2.04183 18.1884C1.51013 18.7201 1.68528 19.6177 2.37336 19.9118L7.77478 22.2262L10.0892 27.6276C10.3832 28.3157 11.284 28.4909 11.8126 27.9592L12.3505 27.4212C12.5507 27.221 12.6601 26.9521 12.6601 26.6706V20.2683L16.3257 16.6027L22.0493 29.3729C22.3527 30.0516 23.2409 30.2142 23.7663 29.6888L24.7578 28.6973C24.9892 28.4659 25.0987 28.1437 25.0612 27.8216L22.9219 10.0066L28.0981 4.83036C28.2576 4.67085 28.3858 4.48632 28.4797 4.27989L29.9246 1.10535C30.2281 0.451642 29.5525 -0.227054 28.8925 0.0731982Z"/>
+                                </svg>
+                            </div>
+                            <div class="main__service-label">
+                                <p class="service__label">Авиаперевозки</p>
+                            </div>
+                        </div>
+                        <div class="main__service-card">
+                            <div class="main__service-image">
+                                <svg class="service__image" width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.8925 0.0731982L25.718 1.51816C25.5147 1.61199 25.327 1.74023 25.1675 1.89974L19.9944 7.07597L2.17944 4.93979C1.8573 4.90226 1.53202 5.01173 1.30371 5.24317L0.312246 6.23463C-0.213196 6.76008 -0.0505593 7.64832 0.628137 7.9517L13.3951 13.6753L9.72955 17.3409H3.32728C3.0458 17.3409 2.77682 17.4535 2.57665 17.6505L2.04183 18.1884C1.51013 18.7201 1.68528 19.6177 2.37336 19.9118L7.77478 22.2262L10.0892 27.6276C10.3832 28.3157 11.284 28.4909 11.8126 27.9592L12.3505 27.4212C12.5507 27.221 12.6601 26.9521 12.6601 26.6706V20.2683L16.3257 16.6027L22.0493 29.3729C22.3527 30.0516 23.2409 30.2142 23.7663 29.6888L24.7578 28.6973C24.9892 28.4659 25.0987 28.1437 25.0612 27.8216L22.9219 10.0066L28.0981 4.83036C28.2576 4.67085 28.3858 4.48632 28.4797 4.27989L29.9246 1.10535C30.2281 0.451642 29.5525 -0.227054 28.8925 0.0731982Z"/>
+                                </svg>
+                            </div>
+                            <div class="main__service-label">
+                                <p class="service__label">Авиаперевозки</p>
+                            </div>
+                        </div>
+                        <div class="main__service-card">
+                            <div class="main__service-image">
+                                <svg class="service__image" width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.8925 0.0731982L25.718 1.51816C25.5147 1.61199 25.327 1.74023 25.1675 1.89974L19.9944 7.07597L2.17944 4.93979C1.8573 4.90226 1.53202 5.01173 1.30371 5.24317L0.312246 6.23463C-0.213196 6.76008 -0.0505593 7.64832 0.628137 7.9517L13.3951 13.6753L9.72955 17.3409H3.32728C3.0458 17.3409 2.77682 17.4535 2.57665 17.6505L2.04183 18.1884C1.51013 18.7201 1.68528 19.6177 2.37336 19.9118L7.77478 22.2262L10.0892 27.6276C10.3832 28.3157 11.284 28.4909 11.8126 27.9592L12.3505 27.4212C12.5507 27.221 12.6601 26.9521 12.6601 26.6706V20.2683L16.3257 16.6027L22.0493 29.3729C22.3527 30.0516 23.2409 30.2142 23.7663 29.6888L24.7578 28.6973C24.9892 28.4659 25.0987 28.1437 25.0612 27.8216L22.9219 10.0066L28.0981 4.83036C28.2576 4.67085 28.3858 4.48632 28.4797 4.27989L29.9246 1.10535C30.2281 0.451642 29.5525 -0.227054 28.8925 0.0731982Z"/>
+                                </svg>
+                            </div>
+                            <div class="main__service-label">
+                                <p class="service__label">Авиаперевозки</p>
+                            </div>
+                        </div>
+                        <div class="main__service-card">
+                            <div class="main__service-image">
+                                <svg class="service__image" width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.8925 0.0731982L25.718 1.51816C25.5147 1.61199 25.327 1.74023 25.1675 1.89974L19.9944 7.07597L2.17944 4.93979C1.8573 4.90226 1.53202 5.01173 1.30371 5.24317L0.312246 6.23463C-0.213196 6.76008 -0.0505593 7.64832 0.628137 7.9517L13.3951 13.6753L9.72955 17.3409H3.32728C3.0458 17.3409 2.77682 17.4535 2.57665 17.6505L2.04183 18.1884C1.51013 18.7201 1.68528 19.6177 2.37336 19.9118L7.77478 22.2262L10.0892 27.6276C10.3832 28.3157 11.284 28.4909 11.8126 27.9592L12.3505 27.4212C12.5507 27.221 12.6601 26.9521 12.6601 26.6706V20.2683L16.3257 16.6027L22.0493 29.3729C22.3527 30.0516 23.2409 30.2142 23.7663 29.6888L24.7578 28.6973C24.9892 28.4659 25.0987 28.1437 25.0612 27.8216L22.9219 10.0066L28.0981 4.83036C28.2576 4.67085 28.3858 4.48632 28.4797 4.27989L29.9246 1.10535C30.2281 0.451642 29.5525 -0.227054 28.8925 0.0731982Z"/>
+                                </svg>
+                            </div>
+                            <div class="main__service-label">
+                                <p class="service__label">Авиаперевозки</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__fourth-section">
+                <div class="main__fourth-container">
+                    <div class="main__about-company">
+                        <div class="about__company-line"></div>
+                        <h2 class="about__company-title">О компании</h2>
+                        <p class="about__company-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
+                    </div>
+                    <div class="main__company-statistics">
+                        <div class="company__statistics-card">
+                            <h3 class="company__statistics-title">48</h3>
+                            <p class="company__statistics-label">офисов</p>
+                            <p class="company__statistics-text">В Европе и СНГ</p>
+                        </div>
+                        <div class="company__statistics-card">
+                            <h3 class="company__statistics-title">361</h3>
+                            <p class="company__statistics-label">грузовиков</p>
+                            <p class="company__statistics-text trucks__text">Volvo, Scania</p>
+                        </div>
+                        <div class="company__statistics-card">
+                            <svg width="200px" height="160px" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="0.125" y="0.125" width="199.75" height="159.75" fill="#C4C4C4"/>
+                                <rect x="0.125" y="0.125" width="199.75" height="159.75" fill="url(#pattern0)"/>
+                                <rect x="0.125" y="0.125" width="199.75" height="159.75" stroke="#C8A35F" stroke-width="0.25"/>
+                                <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_92037_234" transform="matrix(0.00437158 0 0 0.00546448 -0.101093 0)"/>
+                                </pattern>
+                                <image id="image0_92037_234" width="275" height="183" xlink:href="data:image/jpeg;base64,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"/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="company__statistics-card">
+                            <svg width="200px" height="160px" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect x="0.125" y="0.125" width="199.75" height="159.75" fill="#C4C4C4"/>
+                                <rect x="0.125" y="0.125" width="199.75" height="159.75" fill="url(#pattern0)"/>
+                                <rect x="0.125" y="0.125" width="199.75" height="159.75" stroke="#C8A35F" stroke-width="0.25"/>
+                                <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_92037_234" transform="matrix(0.00437158 0 0 0.00546448 -0.101093 0)"/>
+                                </pattern>
+                                <image id="image0_92037_234" width="275" height="183" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQDxUQEBIVFhUVFRcVFRUVFRUVFRYXFxUWFhUXFxcYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQGi0eHh0tKy0tLS0tLSstLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0uLS0tLS0tKy0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAABBAACAwUGBwj/xABEEAACAQMBBAcFBAcHAwUAAAABAgADERIhBDFBUQUTImFxgZEGMqGx8EJScsEVM2KSstHhFCNTgqLS8QfCwyQ0Q2OT/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAIhEBAQEAAgICAgMBAAAAAAAAABEBAhIDITFBBFETImEy/9oADAMBAAIRAxEAPwD02MGM2xlSs+hXiYlYCJsVlSstRiVlSs3KypWWjErK4zfGVKxSMSsqVm+MBWWpGBWVKzcrBjFIXKwFYxjKlIpC+MBSMYQFIqQsVgwjBSDCUhcrBhGCkGEUhYpJhGMICkUhYpBhGcIMIpC+EGEYwkwikLYSYRjCTCKQthJhGMJMIpC+EmEYwkwikL4SYRjCTCKQvhJGMIYpHpcYMYxhBhOFdoXKyuMZKQFIqQtjBhGcIMJaQsUgwjGEBSKQthBhGcIMIqQthKlIzhAUlpC2EGEZwgwikLYSuEawgwikLYSuEawgKRSFcIMI1hBhLUhXCDCM4SYRSFcJMIzhAUirC2EGEZwkwipC2EGEZwkwikLYQYRnCTCKQthJhGMJMIpC+EmEYwkwikL4QxjCSKsekwgwjOEmE8/Z2hXCDCNYQFI7EKlICkawgwjsQqUgKRkpBhFSFSkGEawgwl7EK4QYRrCVwjskK4QFI0Ugwl7EK4QYRopK4R2IWwgwjOEBSOxC2EGEZwgwl7ELYQYRnCDCOyQthJhGMIMI7EL4QYRnCApHYhbCTCMYyYR2IWwkwjGEmMdiFsJMIxhJjHYhfCTCMYwYxSMMIZthJHYj02EGE0xMl55ez0dWWEqyHS1t+txfTu104aze8kvZOrDGDGMWEmMdiFsYMY1hBhL2SFsICka6uDq4pCuEGEa6uA0jp8fQ+nCWkKdXB1cc6uA04qQn1cGEbNOVNOKQoUgwjRSApLSFCkGEZAuSOXceV9Dx8oCkUhbCDCM4SpWOyQvhBjGCsGMvYhfCTCb4wYx2IwxgxjGMGMdiF8ZMJvjBjHZIwxkxm+MGMUjDGTGblYMYpGOMk2xkjsR6bGTGa4yYzxd3s6sDTHKVNIRjGC0vZOpfqe+A0jGcZLTXZOpXqzDiY0FlK9VKa5VGCrzYgDw14y1mMQPrSRiFBZiABqSdABzJOgnJ2z2hv2dnp5cOsqAqg0vomjN4HHznk+ltmbaX/wDVM1RV7eJONMFO2LKthwA3XtfXWWpHudl6U2er+q2ii/4KtN/4TMn6a2UAt19MhTYlXVrHl2b690+I0Nnp4hWUZVKqoDa+q08viai/Ce36J6PXqEp7gB7ll1Zu02RIJvckCxGizpGfqvZUfaHY30XaEPDiPmI9T2qk3u1EPg6/znxT2n6MNFs6e6c3Z+knI0JuPiP5/P53rjeePdy4/QXV33QGlPheze0NZPdqMPAmdnZPbfaV/wDkJ/FZh5g/898df1pvj5Z9PrBpShpzi+yftVT24GmwwrKLlQeyw4lb/Llrzt6Er9b5jdnyzCpSVKRkr4+kzPjHZIwKSpSb28PSVIMdiMCkqUm58vWVPhLSMcYMZrbuMH1wjsRgUN9+mtxbfutrfTj6w4zXSLL0jQLYitTLcg6k+l5akXxgxmqkHcb+GsNopGOMGMzXpCgWKitSLA2K9YlweVr75xumva/Z9nbBf71xvCkBVPItz7gDFI7uMGM8QP8AqA3+An/6H/bOjS9u9mKZMlQN9wBW9GuBbxt4S+0emxkngq/t5WLHCnTC30DBma3eQwBPlBE0fajTlCsZMzYzwcvT0Zy1gRBCzTMtJXXMq95ltO106QvUYC+4byfwqNW8hDl3zy+3bdTpvUY2zLt4kBig15dmazdXq6dfpao/6pMB957Fj4INBwsST4Tn1aALZOS7feY34agDco7hpMKnTNMIrcybjiACf5D1nAr9LtUbefDcO+deHHdc+c4vTKosPE/nOd0gQqVW0vg1tf2SPyiSX58JTbFPU1D+w3yM7Z43HebwO3Uz1uy00NmaqWB5F3pUlPfrSM+xtsihLGw1uNbW4ix7p8c2XaQvSYaoQVpVGIuLgdWGdRztmBoDxn0LpX2joHo+s6VVyZaiJpZicN+A1ABJ15DvmOXKcnXpeGa5HtPtuzZFGr0rnS2akk8rCeGSiva1tjrvAJ7QHZB3nXdyBPCMbL7UV6Ip0qDBEQKDZbMxvdyx+0Lk7+Fot0sg6+oRfVshrpZgGHzE6zeXo4+bj4s37aZD7xPiqn5marSbdiD7o0U6lxdB2OJHCc1fE+pjC44jV8rnUFbDlYWudeNx4cZr+Pn9Lv5vj+810ujdqalVWtSZAyEMNSNRzy3g7iJ976L2tNpoJXS1nUHQg2O5luOINx5T879G7LUrVUpIRk7BRfQXPM8p9j/6fPVoCrsVdgzU8XQre2LKAbX4DsepmPJx3MY3y+Pnv9a9YaPdKGl4zY1Jytt6foUrhmuQfdTtHcOO4a8zOF1eptqP0ZQ0fq08b0n7YVmNqVqYvpoGY+NxbyA85wekOn9oqjF6zkcgQoPiFAv5zeceTO7j6U1sschc7lysTbfYSmmRQMuQFyoN2AO4kHUDvnxx2sbjfMWcg3DWPde/rNdGa+q9KdO7Ns+lWoMhpguLPfkVUHHztPObf7frieootlwNWwA77IdfC4nhnawsIvUJms4JunOlOmq+0E9dUdtfdJIQeCA2HpOflLMCBrMyZvGRDgHTTw/4m79I1SMWq1Co0ALsR6HSLF5UmWIuWH1aBmH1aUMreWDVX+tYV1+jMYCYhW2UkyAEkhX6X/SyHdf4TJuklIuDPgPQfthtKuq1MnGiD7y7gG0Fz33nq06WrGmBi1mU7mXQAstj2rX04cxPmbw5b8vp5w8X0+oDbARe8CbQD8fgSPynzf8AS1VUJKnFbfaBNjdAccrm+LaW4GW2f2gfeL6i5F9R2iQLX945bu6azhq/0+n0dtoAB7iBy1NrfMT5103UL1ntc9upu5Gqx4kDnNantC60nqYVGwa+IByfAg9kfaBw0O7UTnDaLtc72APdclidfOdvHx9uHl5TJjZdnbBVsNx3tbfpuAPzl6Wwkm91Hgpvpb7zEfCXD9/CMU2t6GejjmY8vLluimyX956h0+9jy+4BKbTsNPq2OAJsRc3J7Rse0dRoY0j627vr5TLbHPV7tDa5vu7S2FuN9fSbc9fLKxvtFQ/tt8zDtj2pnwI9SR+cpspy2j7HaZv1hYJx94rqPKDpQ2LKCtr/AGCxTfriW1I8fjPNy/6r6Xi9+OfvGvRns5tNeiK1GnmpJFlIyBGmo+z5w7RsjqzKAXtftJ2h2WYZaa42trG6Xs1W2ymX2ekLqbOBVQEkW+wSLDv4m/Izfoha+yrWQq7OvZCL1VUAgMQGCkuLFr2W28zrx5+6838Gbm8d/wAcSlvs5CA7icvyEYpui3BVm5EaceHMGb9I9MLVR0qUMXxNtA1msbGzAMutuJnR6MejtNRaSKxvoAlmAsL7nswAAO5raeU6Z5Kxy/D435jnbF0ouz11rojdhgwDDTQ6AkHUbp7roX2sWrta7QmKs1NabKb2LXb3dbkXZD5Hxi9D2ZprUxFVsjuXJA34ShU3+PhOtsyLszFKiLdwQaj1HFXEgjsjqwE5dki3lNbm78449OPGdeTzvsn03VqrtLNUdlesWCl2KjIu1gL6DUaDTQRupXUm4ZS1tQCLixIAIG7+s7NPoKhRpBKKPTbtHtKTmd/asoudQAQOFiDvnl9l6HppWatiVZndTctqQw6w2O455Dl2dN859Z8t9qaQXzPEL8yB+cVWnc/XHcI4RYVPw/8AkSK0hdx3XPopP5QUnbI2G/8ApeJM4va8boORUUc7/CxitBL1F/EvzEqMTrM2HG31p/ObrqH8B/Ev9PSVSxNO+4tbutkBu3QFmMyM3uCrMdTcfG/15SrgdZb/AOwL6k/yMDIi8prMcyYFijYiALIGMFaoVtpLUizQAWgNS43WhUHeYotjJBBJR3Nl2VKQ7C68Txm+ydJGmOrcXW9xwI/C3D653ior3mVU3nHMejdekWsKgsjZae6feFr8Bv3nUXGu+Ykc18xqPUa/CeYaoV8J0Nm6cf7fb8TZ/Kprf/OGmsxjeV+XaSkp3AHwsfnrPJ9N9JVaJVKTOuNMM2SkNlfH7QFxu3ad89CNtWpouJb7r2Sp5a4t5G55TzHtDs9Sq53qcQjKwN7Bg3HUbhLGd0tT9rtoHvFW0094a9+uo36aRqn7b1f8NT3hiPmGnN6PJ2fIPQp1Mre+L2A108Tb0E16X6VG0KQ1CmrEg9YqhX0O643jfv5yQrrUfbOs7qAigFgCTg2N21YXUePDdvnUqe1ZNKoBrgVzJXGxvZb43v7ttDwnkfZzYxU2qnSLWza1+VlLfMD1jXUg7NtG06WNbqhzBNn0HKwt6TWZrO7ibFQLVBcAggnSoiHUX43Pwm/SGxuitalUta4urkixUscggBAB8shEKO020svmqn4kXmgZCSShtyRsded3DfKZ3hldOPn3MjTY66daqo9iGAB7QI13kL2t2umuk9Uelkend61PbaS6sMXTaKILaMpqauoJA1J4ajfFdo9sQOi32Gls2F0x60uGaxYZblFydd1t84FPYWo0Ke0CkQjFqfWlriobEVExvoLXtp9njJ09umfkesuPQbVsnXoz0FasiqWOmYVeIa/aQ+c5ns6RQ27Z6q6AVVuL3sG7JsTwsx3xr2R6bp7FWZ6tMVkZGUodL3Glxu8+8zbprpnYaj9bRoNRIs2A7algwJ1udLA+JMs37XfPm7ufOfDanTx6TZSvvbRWpE4kaVGemdcjoctdDflOEjOvAi3JKY/7jHnqJV2kV0elc1FqX6ygpDZBib1GU3uCbjWZ7X0TUNSoUCFS7EMK2w2ILEg9qpf115zq8cY7X2kpFgS1nIJFK47RG87vd4T2G2bbilOoxXEe8zMVs7f3hDHdc3JuDu8J43aKQVUDVKalVIP97srEHrKhtZGN9GX3R8bz1D+0uz1Ng/s1NCa/WFg4ugxDaDXR2w04WsfObq4x/StPtqGU5gBSGFj2g28Nru4f0lKe2qHviSMWBxcEaqRx8ec49RmzsUci29u0AR3a3+EWqWFWxQAn7Qp0rG1tCx1/4ko6lCuoqB7NiA99b/ZtcDiNRrK0KhFRHscclOlm0BBM4FerSQ2wAuOPWDf3LaZGpSAxOl9dGxP+tjCu8tXEPfK5WwGOhOanf4Bpmu0i9K5AxYF9Dp27/K05dKqEQqM+5jUuR5LT19YKRUKcmck8bEeF7sI9pTmf929zrdeB4ZX4d4mvXpmTmtjXuDkB2QW18NZzthrYntOG36kKDutuFwZotZw+9SltCQ9xzOgtePa3Epm/LdrqNJk9ZQbE7uVz8pTpKu7oqoQApY70W5OIubnX3YumwE6ip8U/JjGJun12ynz+Dfym7kEb5w6eyVW0Fx+JG+eMvtGzVUS7kAA3uAbm9gAb20FtPEwZv711ae+3z0jtKlkCDOF0dUyUDJjzIZb28NYxWqCmLl6g4agH42+rSVXSOytz+X85Ih1qHW5N+Nv6SRR1esEjtMiYAZmOtXvF6lLiJsZQmXGWS1SBY6jkY3T25rBSQ6jclTUD8Le8vkRE6i38ZgbiaZ10z1T6BjTb7tTtIfB1Fx5jzim2dHFdWWwO5hYqfBhofIzAVOBm2z7U9O/VORfeu9W8QdD5iWswmtFkYOjEMNQRvB7oualVaDUBqrVBUPO4BA+fwE7X9qpPpVpmm336Xu+dM/8AaR4SlXoxiMqRFVeaakfiQ9oekQrmbNt5GjErpa2uI8Ac7+gnRo1aRGVSmXUHU0iqGw4HAOmveUOk570xF32exyGhG4jQjwIkmr6dLpLbdmZbbOlZdRfrDTYWBB0K2+Ud2vpIjYG2dmJGaPT1BCqFQAXIuu+pYDTVriedrNUIsWy7yAW/ePa+Mm2bWWVVI90AX4m2gv4DQRSNWrXgz75zspMzJ2Ohtj3DzAl02ao2q0iQdxCEg236gRMPz+cep9KstPBSVtfGxva5vx77+sUjAN4egnQ6H1rA77Am3lb8xOMi3IF7d/Keh2apSUAJpoBcbzbnzlxNx1c2O4E+RNpg9c7rzDr+TesJ2p91791zb0mkCo4O8A+IBmDoh+wvpb5TRto5oP3QP4bShqIeBHgSPmDJFqgRQbgEX32J+UzXZhbFct5OgB3m/Kasqncx9Afjf8pXqjwIPmR8wBEwpepQOg6wi1+BBN+djKNQbgy+Y/MiNNWcaZH964+BtK/2g8Qp/wAq/O0kKxoo9+1a37LazQpvuWt4Fr/GHrl4oPIt/MyZp+0PMH4WHzliFabg3yFrGwuBqOfu6S77Rjpf0v8AkwjAK/fPmunwJlSveh+H8QEk1fTCnthDWDEHvLD53ltp2hjYVLEbwGFM/wASfnCaYv7i+Wvyhdr6G/rL7SYoKoGmCfuU/wCck0zH0BJHsmOuGkymd5Qm0w6ts5RjKFoGgQmUYXlstNZQzTLFlklyQZRvq0IsDffrIl1bJCQRuINiPAiZlu/1EOXgfOVHQ/Smem0UxU/bHYqj/MNG8CIf0alX/wBvVBP+HUslTy4N5Tnk90oV5ehlqRfaNkZDjUUqeRFv+ZgaAPGdCh0xUUYPaon3Kna9DvE2FPZq3uOaLn7L9qnfubh5wOK2yzFtnnZ23o6rR1dOz99e0nqN3nEWkhSJowdXHCkrhLCl1SOUKMzFOXAIiFb9VBZhMxWPGXFaAetMnW90OYMBUQK5CTwMmHL4SZtxsfEA/Hf8YELHxlS3MQ5rxW34WPya/wA5pSpq26qo7qgZfioYetoGOS8oNOcabo+ra4TMc6ZWp/ASR5xNxY2IseR0PpCCUgxMBXkZNYE1kykzMHWd0CZSQ5CSB1zeVMsIGmXVS54SuWskBkBgYyKbwNKB5SWlhAYRQr3/ABMzY23/ABt+YE3lGhGGnd8PyaWF/rL+sLIeF/8AV/uEobcR64/mTKjQkcfj9CZlORkUjhbyI/JZoL9/o5HxtA02PpKrR9xiB906qfIx0bXs1f8AWp1Tn7dP3Se9frxnPK8x8h+czajylqR0a/QlQLnSK1U5odfMfynN3Gx0PEHQw0NoekckYqe4/McZ1k6aSqAu10g3DrF7Lj67vSUjlrNAJ1P0ItUZbJWD/sPo4+vCczaKL0jjUQqe8b/A7j5SCppiZNR5TVXl8DyOsBNlIgzMbYc5myAwMetMuKglWpTNltA2vARMJA8DTGxuN/OMjpCsBYuWH3agFQejgxQVIcpUNf2tD79BPGmWpn0uV+EmOztuqVE/GgqD1Qg/6YteCA4Oji36upSqcgHCt+6+JmO07JUp/rKbKOZUgeu6YFZts+11af6uo69ysQPTdAw0kj36Wq8erJ5mjSJPicZJA3aVJhkmXVk5gJkkgVvrLiCSAGMreGSEZsZAe6SSAfKUN+HwAHzkkhEGXJvNgP4ZUrbeB+8zfOSSUV65Qd48kPzvNVYndkf3RBJILY33iZPS5QySozRipuCQRxBsfhO1svtG4GFdVqp+0Bl68YZIqw3T6M2fagW2Z2RuKMCV9eHrOZtuy1dmONQC3Aggg/nJJNT0yUareQjmN+6SSRVTKkSSQKssyKSSQKFYLSSQJeEPJJAIeWBgklQZJJIH/9k="/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="company__statistics-card">
+                            <h3 class="company__statistics-title">1500</h3>
+                            <p class="company__statistics-label workers__label">сотрудников</p>
+                            <p class="company__statistics-text workers__text">профессионалов</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
     <script src="./dist/js/main.js"></script>
 </body>
 </html>
